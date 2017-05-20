@@ -1,0 +1,595 @@
+/* selector {rules} */
+
+body {
+    margin: 10px 50px 50px 50px;
+	padding: 0;
+	background: #121212;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: normal;
+    text-align: center;
+}
+img {
+    border: none;
+}
+
+h5,h6 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+h1 {
+    color: #ac0804;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Century Gothic;
+    text-align: center;}
+	
+h2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+h3 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+}
+h4 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #820500;
+}
+	
+/*linki*/
+a {
+    color: #000;
+    text-decoration: none;
+}
+a.black {
+    color: #000;
+    text-decoration: underline;
+    font-size: 9px;
+}
+a.black2 {
+    color: #000;
+    font-size: 9px;
+}
+a.brown {
+    color: #993300;
+    text-decoration: underline;
+    font-size: 9px;
+}
+a.brown2 {
+    color: #993300;
+    font-size: 9px;
+}
+a.red {
+    color: #820500;
+}
+a.red:hover {
+    text-decoration: underline;
+}
+
+a.tabs {
+    font-family: Lucida Sans Unicode;
+    font-size: 14px;
+    color: #fcd22a;
+    float: left;
+}
+a.tabs:hover {
+    text-decoration: underline;
+}
+.tabs2 {
+    font-family: Lucida Sans Unicode;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fcd22a;
+    float: left;
+}
+
+a.reds {
+    font-family: Lucida Sans Unicode;
+    font-size: 14px;
+    color: #820500;
+}
+a.reds:hover {
+    text-decoration: underline;
+}
+.reds2 {
+    font-family: Lucida Sans Unicode;
+    font-size: 14px;
+    font-weight: bold;
+    color: #820500;
+}
+
+a.link {
+    color: #999999;
+}
+a.link:hover {
+    text-decoration: underline;
+}
+
+a.tytul {
+    font-family: Lucida Sans Unicode;
+    font-size: 30px;
+    color:#fcd22a;
+}
+a.linki {position: absolute;
+    top: -32000;
+    left: -32000;
+    text-indent: -32000;
+}
+a.ent {
+    font-family: Lucida Sans Unicode;
+    font-size:12px; color:#999999;
+}
+a.orange12 {
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+    color:#FF9900;
+}
+a.szary12 {
+    font-size: 12px;
+    color:#666666;
+}
+a.orange14 {
+	font-size: 14px;
+	color: #FF3300;
+}
+a.rose {
+    font-size: 12px;
+    color: #FF6600
+}
+/*fonty*/
+.nam {
+    color: #000;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: Lucida Sans Unicode;
+}
+.teatr {
+    color: #820500;
+}
+.foto {
+    font-family: "Tw Cen MT";
+    font-size:12px; color:#999999;
+}
+.szary {
+    color: #666666;
+    text-align: center;
+}
+.szary2 {
+    color: #666666;
+    font-size: 9px;
+}
+.jasny {
+    color: #999999;
+}
+.fent {
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+    color:#999999
+}
+.orange {
+    font-size: 14px;
+    color: #FF9900;
+}
+.oranges {
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+    color: #FF9900;
+}
+.shade {
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+    color: #666666;
+}
+.small {
+    font-size: 10px;
+    color: #000;
+}
+
+/*divy*/
+
+div#box {
+    width: 800px;
+    height: 200px;
+    clear: both;
+}
+div#box:after {
+    content: '.';
+    width: 100%;
+    height: 1px;
+    clear: both;
+    overflow: hidden;
+}
+
+div#nazwa {
+    width: 180px;
+    float: left
+}
+div.fr {
+    float: right;
+}
+div.fl {
+    float: left
+}
+div.fr2 {
+    float: right;
+    padding: 30px 0px 20px 20px;
+}
+div#logo2 {
+    width: 200px;
+    float: right;
+}
+div#fraza {
+    width: 300px;
+    float: right;
+    text-align: left;
+}
+div#menu {
+    vertical-align: top;
+    font-family: Lucida Sans Unicode;
+    font-size: 16px;
+    color: #fcd22a;
+    margin: 10px 0px;
+}
+div#red {
+    vertical-align: top;
+    font-family: Lucida Sans Unicode;
+    font-size: 16px;
+    color: #820500;
+    margin-top: 0px;
+}
+div.fot {
+    width: 620px;
+    height: 360px;
+    clear: both;
+}
+div.fot:after {
+    content: '.';
+    width: 100%;
+    height: 1px;
+    clear: both;
+    overflow: hidden;
+}
+
+div#prawa {
+    width: 620px;
+    margin: 0px 0px;
+}
+div#aktual {
+    width: 620px;
+    height: 320px;
+    margin: 30px 0px;
+    background-image: url(img/festiwal.jpg);
+}
+
+div#tekst {
+    padding: 20px 20px;
+    color: #ceae3e;
+}
+div.tekst1 {
+    padding: 0px 20px 20px 20px;
+    color: #6f6e6d;
+}
+div#tekst2 {
+    padding: 10px 20px;
+    color: #000;
+}
+div#tekst3 {
+    padding: 10px 20px;
+    color: #820500;
+}
+div.tekst4 {
+    padding: 0px 20px 20px 20px;
+    color: #666666;
+}
+div.pad {
+    padding: 30px 0px 10px 0px;
+}
+
+div#zolty {
+    width: 620px;
+    height: 600px;
+    background-color: #ceae3e;
+    margin:50px 0px;
+}
+div.tlo {
+    height: 200px;
+    width: 900px;
+    background-image: url(img/kreska1.jpg);
+}
+div#bgtc {
+    width: 620px;
+    height: 650px;
+    background-image: url(img/bgtc1.jpg);
+    background-repeat: repeat-x;
+    margin: 0px 0px;
+}
+div#bgws {
+    width: 620px;
+    height: 390px;
+    background-image: url(img/bgws1.jpg);
+    background-repeat: repeat-x;
+    margin: 0px 0px;
+}
+div#bgtc2 {
+    width: 620px;
+    height: 800px;
+    background-image: url(img/bgtc2.jpg);
+    background-repeat: repeat-x;
+    margin: 50px 0px;
+}
+div.bgyellow {
+    width: 620px;
+    height: 800px;
+    margin: 50px 0px;
+    background-color: #fcfd73;
+}
+
+div#galeria {
+    width: 620px;
+    display: block;
+    clear: both;
+}
+div#galeria:after {
+    content: '.';
+    width: 100%;
+    height: 1px;
+    clear: both;
+    overflow: hidden;
+}
+
+div.galeria2 {
+    position: relative;
+    WIDTH: 600px;
+    HEIGHT: 150px;
+    LEFT: 0px;
+    TOP: 0px;
+}
+div.div1 {
+    position: absolute;
+    WIDTH: 225px;
+    HEIGHT: 100px;
+    LEFT: 0px;
+    TOP: 0px;
+    padding-top: 40px;
+}
+div.div2 {
+    position: absolute;
+    WIDTH: 225px;
+    HEIGHT: 100px;
+    LEFT: 225px;
+    TOP: 0px;
+    padding-top: 40px;
+}
+div.div3 {
+    position: absolute;
+    WIDTH: 150px;
+    HEIGHT: 100px;
+    LEFT: 450px;
+    TOP: 0px;
+    padding-top: 40px;
+}
+
+div.min1 {
+    position: absolute;
+    WIDTH: 225px;
+    HEIGHT: 100px;
+    LEFT: 0px;
+    TOP: 0px;
+}
+div.min2 {
+    position: absolute;
+    WIDTH: 225px;
+    HEIGHT: 100px;
+    LEFT: 225px;
+    TOP: 0px;
+}
+div.min3 {
+    position: absolute;
+    WIDTH: 150px;
+    HEIGHT: 100px;
+    LEFT: 450px;
+    TOP: 0px;
+}
+
+iframe.ramka{
+    background-color: #000000;
+}
+div#link {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+div.vide {
+    width: 580px;
+    height: 344px;
+    clear: both;
+    padding: 0px 20px 20px 20px;
+}
+div.vide:after {
+    content: '.';
+    width: 100%;
+    height: 1px;
+    clear: both;
+    overflow: hidden;
+}
+div.ekran {
+    width: 450px;
+    height: 344px;
+    float: left;
+}
+div.inne {
+    width: 80px;
+    height: 344px;
+    float: right;
+}
+
+div.video {
+    width: 580px;
+    height: 240px;
+    clear: both;
+    padding: 0px 20px 20px 20px;
+    margin: 0 0 0 20px;
+}
+div.video:after {
+    content: '.';
+    width: 100%;
+    height: 1px;
+    clear: both;
+    overflow: hidden;
+}
+div.ekranindex {
+    width: 430px;
+    height: 240px;
+    float: left;
+}
+div.inne {
+    width: 80px;
+    height: 344px;
+    float: right;
+}
+
+
+div.tren {
+    width: 620px;
+    height: 400px;
+    clear: both;
+}
+div.tren:after {
+    content: '.';
+    width: 100%;
+    height: 1px;
+    clear: both;
+    overflow: hidden;
+}
+div.bginfo {
+    width: 620px;
+    height: 400px;
+    background-image: url(img/bgws1.jpg);
+    background-repeat: repeat-x;
+    margin: 0px 0px;
+}
+div.info {
+    width: 260px;
+    height: 380px;
+    float: left;
+    color: #000;
+    padding: 10px 20px;
+}
+div.plakat {
+    width: 260px;
+    height: 380px;
+    float: right;
+    padding: 10px 20px;
+}
+
+div.bgkontakt {
+    width: 620px;
+    height: 400px;
+    background-image: url(img/bgws1.jpg);
+    background-repeat: repeat-x;
+    margin: 0px 0px;
+}
+div.kontakt {
+    width: 320px;
+    height: 380px;
+    float: left;
+    color: #000;
+    padding: 10px 20px;
+}
+div.mapa {
+    width: 200px;
+    height: 380px;
+    float: right;
+    padding: 20px 20px;
+}
+
+div.bgfaceci {
+    background-image: url(img/faceci6.jpg);
+    width: 620px;
+    height: 340px;
+}
+
+.clr {
+    clear: both;
+}
+.fix {
+    display: inline-table;
+}
+/* \*/
+* html.fix {
+    height: 1px;
+}
+.fix {
+    display: block;
+}
+/* */
+.fix:after {
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+/*nowe style BK*/
+div.blackBg {
+    width: 900px;
+    background-color:#000000;
+    display: inline-block;
+    text-align: center;
+}
+div.bodyDiv {
+    width: 800px;
+    background-color:#000000;
+    display: inline-block;
+    text-align: center;
+}
+div.banner {
+    display: inline-block;
+}
+div.mainMenu{
+    width: 180px;
+    text-align: left;
+}
+div.omlyContent{
+    position: static;
+    right: 0px;
+    width: 620px;
+    text-align: left;
+}
+div.underBanner{
+    display: flex;
+}
+div#newMenu {
+    vertical-align:top;
+    font-family:Lucida Sans Unicode ;
+    font-size:16px;
+    color:#fcd22a;
+    margin:10px 0px;
+    width: 180px;
+}
+div#newReds {
+    vertical-align:top;
+    font-family:Lucida Sans Unicode ;
+    font-size:16px;
+    color:#820500;
+    margin:10px 0px;
+    width: 180px;
+}
+div.miniBanner {
+    width: 800px;
+    text-align: left;
+}
+

@@ -1,0 +1,337 @@
+/*zaktualizowany dowersji Zosi z 27 I 2017
+/* selector {rules} */
+
+/*mobile*/
+@media screen and (max-width: 500px)
+{
+    body
+    {
+        margin: 0px 0px 0px 0px;
+    	padding: 0;
+    	background: #000000;
+    	font-family: Verdana, Arial, Helvetica, sans-serif;
+    	font-size: 12px;
+    	color: #ffffff;
+    	font-weight: normal;
+        text-align: center;
+    }
+    div.bodyDiv
+    {
+        margin: 10px 10px 10px 10px;
+        padding: 10px;
+        width: 80%;
+        background-color:#000000;
+        display: inline-block;
+        text-align: center;
+    }
+    div.banner
+    {
+        display: inline-block;
+    }
+    div.underBanner
+    {
+        display: flex;
+        -webkit-flex-direction: column;
+    }
+    div.omlyContent
+    {
+        position: static;
+        right: 0px;
+        width: 100%;
+        text-align: left;
+    }
+    div.video
+    {
+        display: none;
+    }
+    div.tekst1
+    {
+        padding: 0px 20px 20px 20px;
+        color: #6f6e6d;
+    }
+    div#menu .tabRes {
+       display: block;
+    }
+    div#menu
+    {
+        vertical-align:top;
+        font-family:Lucida Sans Unicode ;
+        font-size:16px;
+        color:#fcd22a;
+        margin:10px 0px;
+        width: 180px;
+        text-align: left;
+        padding-top: 10px;
+        display: flex;
+        -webkit-flex-direction: column;
+    }
+    div#prawa
+    {
+        width: 100%;
+        margin: 0px 0px;
+    }
+    div#bgtc
+    {
+        width: 100%;
+        height: 100%;
+        background-image: url(img/bgtc1.jpg);
+        background-repeat: repeat-x;
+        margin: 0px 0px;
+    }
+    div#tekst2
+    {
+        padding: 10px 20px;
+        color: #000;
+    }
+    img
+    {
+        border: none;
+    }
+
+    img#banner
+    {
+        border: none;
+        width: 100%;
+    }
+    a
+    {
+        color: #000;
+        text-decoration: none;
+    }
+    a.tabs
+    {
+        display: none;
+    }
+    a.tabsRes
+    {
+        font-family: Lucida Sans Unicode;
+        font-size: 14px;
+        color: #fcd22a;
+        float: left;
+        margin: 15px 0px 15px 0px;
+    }
+    a.ent
+    {
+        display: none;
+    }
+    a.brown2
+    {
+        display: none;
+    }
+    .tabs2
+    {
+        font-family: Lucida Sans Unicode;
+        font-size: 14px;
+        font-weight: bold;
+        color: #fcd22a;
+        float: left;
+    }
+    .jasny
+    {
+        color: #999999;
+    }
+}
+
+/*todo: mobile horizontally*/
+/*todo: tablet*/
+/*todo: tablet horizontally*/
+
+/*desktop*/
+@media screen and (min-width: 501px)
+{
+    body
+    {
+        margin: 10px 50px 50px 50px;
+    	padding: 0;
+    	background: #121212;
+    	font-family: Tahoma, Geneva, sans-serif;
+    	font-size: 13px;
+    	color: #ffffff;
+    	font-weight: normal;
+        text-align: center;
+    }
+    div.bodyDiv
+    {
+        margin: 10px 10px 10px 10px;
+        width: 900px;
+        background-color:#000000;
+        display: inline-block;
+        text-align: center;
+    }
+    div.banner
+    {
+        display: inline-block;
+    }
+
+    div.underBanner
+    {
+        display: flex;
+        padding-left: 50px;
+    }
+    div.omlyContent
+    {
+        position: static;
+        right: 0px;
+        width: 620px;
+        text-align: left;
+    }
+    div.video
+    {
+        width: 580px;
+        height: 240px;
+        clear: both;
+        padding: 0px 20px 20px 20px;
+        margin: 0 0 0 20px;
+    }
+    div.tekst1
+    {
+        padding: 0px 20px 20px 20px;
+        color: #6f6e6d;
+    }
+    div.video:after
+    {
+        content: '.';
+        width: 100%;
+        height: 1px;
+        clear: both;
+        overflow: hidden;
+    }
+    div.ekranindex
+    {
+    width: 430px;
+    height: 240px;
+    float: left;
+    }
+    div.inne
+    {
+        width: 80px;
+        height: 344px;
+        float: right;
+    }
+
+    div#menu
+    {
+        vertical-align:top;
+        font-family:Lucida Sans Unicode ;
+        font-size:16px;
+        color:#fcd22a;
+        margin:10px 0px;
+        width: 180px;
+        text-align: left;
+        display: flex;
+        -webkit-flex-direction: column;
+    }
+    div#prawa
+    {
+        width: 620px;
+        margin: 0px 0px;
+    }
+    div#bgtc
+    {
+        width: 620px;
+        height: 650px;
+        background-image: url(img/bgtc1.jpg);
+        background-repeat: repeat-x;
+        margin: 0px 0px;
+    }
+    div#tekst2
+    {
+        padding: 10px 20px;
+        color: #000;
+    }
+    img
+    {
+        border: none;
+    }
+    a
+    {
+        color: #000;
+        text-decoration: none;
+    }
+    a.tabs
+    {
+        font-family: Lucida Sans Unicode;
+        font-size: 14px;
+        color: #fcd22a;
+        float: left;
+        margin: 15px 0px 15px 0px;
+    }
+    a.tabsRes
+    {
+        font-family: Lucida Sans Unicode;
+        font-size: 14px;
+        color: #fcd22a;
+        float: left;
+        margin: 15px 0px 15px 0px;
+    }
+    a.ent
+    {
+        font-family: Lucida Sans Unicode;
+        font-size:12px; color:#999999;
+        margin: 5px 0px 5px 0px;
+    }
+    a.brown2
+    {
+        color: #993300;
+        font-size: 9px;
+        margin-left: 15px;
+    }
+    .tabs2
+    {
+        font-family: Lucida Sans Unicode;
+        font-size: 14px;
+        font-weight: bold;
+        color: #fcd22a;
+        float: left;
+    }
+    .fent
+    {
+        font-family: Lucida Sans Unicode;
+        font-size: 12px;
+        color:#999999
+    }
+    .jasny
+    {
+        color: #999999;
+    }
+	.redfront
+    {
+        font-size:12px;	color:#820500;
+    }
+}
+
+h1
+{
+    color:#ac0804;
+	text-decoration:none;
+	font-size:16px;
+	font-family:Lucida Sans Unicode;
+	font-weight:400
+}
+h2
+{
+    font-family: Lucida Sans Unicode;
+    font-size: 500;
+    font-weight: bold;
+    color: #000;
+}
+h3
+{
+    font-family: Lucida Sans Unicode;
+    font-size:14px;
+    font-weight:300;
+    color:#820500;
+}
+h4
+{
+    font-family: Lucida Sans Unicode;
+    font-size:16px;
+    font-weight:300;
+    color:#999;
+}
+
+.small
+{
+    font-size: 10px;
+    color: #000;
+}
