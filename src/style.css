@@ -19,10 +19,9 @@ h5,h6 {
     font-weight: normal;
 }
 
-h1 {
-    color: #ac0804;
-	text-decoration: none;
-	font-size: 16px;
+h1{	color:#ac0804;
+	text-decoration:none;
+	font-size:16px;
 	font-family: Century Gothic;
     text-align: center;}
 	
@@ -81,7 +80,8 @@ a.tabs {
     color: #fcd22a;
     float: left;
 }
-a.tabs:hover {
+
+a.tabs:hover{
     text-decoration: underline;
 }
 .tabs2 {
@@ -424,8 +424,8 @@ div.vide:after {
 }
 div.ekran {
     width: 450px;
-    height: 344px;
-    float: left;
+	height: 344px;
+	float: left;
 }
 div.inne {
     width: 80px;
@@ -454,8 +454,8 @@ div.ekranindex {
 }
 div.inne {
     width: 80px;
-    height: 344px;
-    float: right;
+	height: 344px;
+	float: right;
 }
 
 
@@ -592,4 +592,3 @@ div.miniBanner {
     width: 800px;
     text-align: left;
 }
-

@@ -1,7 +1,7 @@
 ﻿http://nam.waw.pl/
 http://nam.waw.pl/src/kungfu.htm
 http://nam.waw.pl/src/taichi.htm
-http://nam.waw.pl/src/asystent.htm
+http://nam.waw.pl/src/asystent.html
 http://nam.waw.pl/src/nam.htm
 http://nam.waw.pl/src/wywiad.htm
 http://nam.waw.pl/src/teatr.htm
